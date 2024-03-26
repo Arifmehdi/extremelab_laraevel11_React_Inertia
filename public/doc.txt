@@ -1,0 +1,27 @@
+Install Laravel 11
+====================
+01. composer create-project laravel\laravel <project-name>
+
+Install Laravel breeze
+=======================
+02. composer require laravel/breeze --dev
+03. php artisan breeze:install
+    -- choose react >none> none
+
+open server (4)
+=======================
+ --  php artisan serve
+ --  php artisan tinker
+ --  npm run dev
+ --
+
+Verify email
+=======================
+ -- implements in user model MustVerifyEmail
+ -- now try to register
+ -- and it save in kog file storage> log> laravel-log and check verify email
+ -- paste it in your browser you are vedified and authenticate
+
+install inertia (called glue)
+=============================
+04.
